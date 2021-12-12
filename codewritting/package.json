@@ -1,0 +1,16 @@
+{
+  "name": "codewritting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "container.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  }
+}

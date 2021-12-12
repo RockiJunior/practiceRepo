@@ -1,0 +1,59 @@
+.title-home {
+  font-family: "Lobster", cursive;
+  color: white;
+}
+
+.text-home {
+  font-family: "Lobster", cursive;
+  color: white;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 700px;
+  background: center fixed url(../../utils/images/stepByStep.jpg) no-repeat;
+  background-size: cover;
+}
+
+p {
+  opacity: 0.8;
+}
+
+a {
+  border: 2px solid rgba(0, 0, 0, 1);
+  padding: 0.6em 3.5em;
+  margin: auto;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 0.9em;
+}
+a:visited {
+  text-decoration: none;
+  color: red;
+}
+a:hover {
+  transition: 1s;
+  background-color: red;
+  text-decoration: none;
+  color: blue;
+}
+a:focus {
+  text-decoration: none;
+  color: yellow;
+}
+a:hover,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 3em;
+}
